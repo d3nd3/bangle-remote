@@ -1,0 +1,4 @@
+{
+	"name":"ble_test",
+	"src":"ble_test.app.js"
+}
