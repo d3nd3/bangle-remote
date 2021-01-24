@@ -21,8 +21,11 @@
 			manufacturer:0x0590,
 			manufacturerData:JSON.stringify(data)
 		});
-		setTimeout(5000,()=>{
+		setTimeout(x,()=> {
+			// 1 frame of advertising == true?
 			advertising = false;
+		}
+		setTimeout(5000,()=>{
 			if (!advertising) NRF.sleep();
 		}
 	},BTN2,{repeat:true,edge:"rising"});
@@ -40,8 +43,11 @@
 			manufacturer:0x0590,
 			manufacturerData:JSON.stringify(data)
 		});
-		setTimeout(5000,()=>{
+		setTimeout(x,()=> {
+			// 1 frame of advertising == true?
 			advertising = false;
+		}
+		setTimeout(5000,()=>{
 			if (!advertising) NRF.sleep();
 		}
 	},BTN2,{repeat:true,edge:"rising"});
